@@ -20,7 +20,7 @@ export default class Glasses extends Component {
             return (         
                     <a key={glass.id}>
                     <img  className='my-5 mx-4' src={glass.url} alt="hinh anh" />
-                    <button className='btn btn-warning' onClick={()=>{this.handlChangeGlass(glass.url)}}>Try it</button>
+                    <button className='btn btn-success' onClick={()=>{this.handlChangeGlass(glass.url)}}>Try it</button>
                     </a>                    
             );
         });
